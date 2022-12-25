@@ -1,0 +1,50 @@
+# kegiatan assignment nilai
+a = 10
+x = 5
+
+# pemanggilan pertama
+panjang = 1000
+print("nilai a =", a)
+print("nilai x =", x)
+print("nilai panjang =", panjang)
+
+
+# penamaan
+nilai_y = 15
+juta10 = 10000000
+nilaiZ = 17.5
+
+# pemanggilan kedua
+print("nilai a =", a)
+a = 7
+print("nilai a =", a)
+
+# assignment indirect
+b = a
+print("nilai b =", b)
+# a = 10, a adalah variabel dengan nilai 10
+
+# tipe data: angka satuan (integer)
+data_integer = 1
+print("data :", data_integer)
+print("- bertipe :", type(data_integer))
+
+# tipe data: angka dengan koma (float)
+data_float = 1.5
+print("data :", data_float)
+print("- bertipe : ", type(data_float))
+
+# tipe data: angka dengan karakter (string)
+data_string = "steve"
+print("data :", data_string)
+print("- bertipe : ", type(data_string))
+
+# tipe data : biner true / false (boolean)
+data_bool = True
+print("data :", data_bool)
+print("- bertipe : ", type(data_bool))
+
+# bilangan kompleks
+data_complex = complex(5, 6)
+print("data :", data_complex)
+print("- bertipe : ", type(data_complex))
